@@ -10,22 +10,6 @@
 # Description: Connect to Github Actions VM via SSH by using ngrok
 # Version: 2.0
 #
-env:
-# After sign up on the https://ngrok.com
-# You can find this token here: https://dashboard.ngrok.com/auth/your-authtoken
-NGROK_TOKEN: ${{ secrets.1lMG1DYlY2J78ejh3bfHTTB6hWB_3ZhjLdFgbD2rvHs5aqARX }}
-
-# ngrok server region [us, eu, au, ap, sa, jp, in] (optional, default: us)
-# You can find this server region here: https://ngrok.com/docs#global-locations
-NGROK_REGION: us
-
-# This password you will use when authorizing via SSH
-SSH_PASSWORD: ${{ secrets.123456 }}
-
-# Send connection info to Telegram (optional)
-# You can find related documents here: https://core.telegram.org/bots
-#TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-#TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
 Green_font_prefix="\033[32m"
 Red_font_prefix="\033[31m"
